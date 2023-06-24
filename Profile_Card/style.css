@@ -1,0 +1,29 @@
+/* Google Fonts - Cinzel */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+	font-family: 'Cinzel', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+	height: 100vh;
+	display:flex;
+}
+
+.image{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-color: ;
+	padding: 3px;
+}
+
+.image .card-img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
